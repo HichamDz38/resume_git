@@ -1,0 +1,11 @@
+# to list all branches
+$ git branch
+
+# to create a new "footer-fix" branch
+$ git branch footer-fix
+
+# to create a new  branch on the given HASH commit 
+$ git branch [branch] [hash[:7]]
+
+# to delete the "footer-fix" branch
+$ git branch -d footer-fix
