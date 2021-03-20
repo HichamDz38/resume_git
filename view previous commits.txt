@@ -1,0 +1,10 @@
+# how to see previous commits
+
+>> git log
+    => to see hash, author, Date, commit message
+>> git log --oneline
+    => to see hash[:7], commit message
+>> git log --stat
+    => to see hash, author, Date, commit message, changed files + details
+>> git log -p
+    => to see changes inside the files
