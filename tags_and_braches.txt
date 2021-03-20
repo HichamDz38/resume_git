@@ -1,0 +1,8 @@
+# how to add a tag
+>> git tag -a [tag_name]
+    => add a tag to the last commit
+>> git tag -a [tag_name] [Hash[:7]]
+    => add a tag to the giving commit
+
+>> git tag -d [tag_name]
+    => delete the given tag
