@@ -1,0 +1,11 @@
+# how to create a new repository
+
+1: create the repository on github
+2: create a local folder
+3: >>git init 
+4: >> git remote add origin 'URL' 
+5: >> git pull origin master
+6: write/copy new file(s)
+7: >> git add *
+8: >> git commit -m "commit message"
+9: >> git push origin master
