@@ -1,0 +1,18 @@
+# how to make a merge
+
+git merge <other-branch>
+    => this will mouve the actual brach to point on the <other-branch>
+
+undo a merge
+    => git reset --hard HEAD^
+
+# Fast-forward merge
+
+the branch being merged in must be ahead of the checked out branch.
+The checked out branch's pointer will just be moved forward,
+to point to the same commit as the other branch.
+
+# the regular type of merge
+
+two divergent branches are combined.
+a merge commit is created.

@@ -2,7 +2,7 @@
 
 1: create the repository on github
 2: create a local folder
-3: >>git init 
+3: >> git init 
 4: >> git remote add origin 'URL' 
 5: >> git pull origin master
 6: write/copy new file(s)
