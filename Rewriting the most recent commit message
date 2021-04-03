@@ -1,3 +1,7 @@
 # if you want to add more changes 
 # to the most commit, it mean commit& replace the last commit
 $ git commit --amend   
+
+# in case where the commit pushed, we can use --force
+# --force mean ovveride all remote history with local history
+$ git push --force origin master
