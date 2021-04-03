@@ -9,3 +9,9 @@ $ git branch [branch] [hash[:7]]
 
 # to delete the "footer-fix" branch
 $ git branch -d footer-fix
+
+# to switch the active branches
+$ git checkout [branch]
+
+# to create and switch at same time
+$ git checkout -b [brache]
